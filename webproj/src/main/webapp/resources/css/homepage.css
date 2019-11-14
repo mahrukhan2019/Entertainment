@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@charset "UTF-8";
+*{
+	margin: 0;
+}
+
+html, body {
+
+background-color:  #333;
+	height: 100%;
+	padding: 0;
+	overflow-y: hidden;
+	width:100%;
+	height: 100%;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:  rgb(163, 203, 231);
+  color: white;
+}
+
+div{
+height: 100%;
+width: 100%;
+margin:0;
+padding:0;
+color: white;
+}
+
+
+div .left{
+padding-top: 4%;
+width: 20%;
+margin:10;
+float:left;
+text-align:center;
+
+}
+
+
+div .center {
+background: url(../images/homepagebac.jpeg);
+margin:0;
+padding:0;
+width: 60%;
+height:100%;
+float: left;
+text-align:center;
+}
+
+div .right{
+padding-top: 4%;
+margin:0;
+width: 20%;
+float: left;
+text-align:center;
+
+}
+.image-1{
+	margin:0;
+
+}
+.image-2{
+	margin:0;
+
+
+}
